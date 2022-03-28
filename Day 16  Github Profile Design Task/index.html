@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.grid-container {
+  display:grid;
+  /* grid-template-columns: auto auto auto auto; */
+  grid-gap: 35px;
+  background-color:#CAD2C5;
+  padding: 10px;
+  font-family: Arial;  
+}
+.grid-container > div {
+  padding: 20px ;
+}
+.one {
+   grid-column: span 4;
+   background-color: #2F3D46;
+   height: 30px;
+   /* border-radius: 0px; */
+   width:96%;
+   padding-top: 20px;
+   font-size:x-large;
+   font-weight: 700;
+   letter-spacing:2px;
+  }
+.two {
+   grid-row: span 3;
+   background-color: #353535;
+   border-radius: 20px;
+   height:89%;
+   width: 200px;
+   text-align: center;
+  }
+.three{
+   grid-column:span 3;
+   background-color: #353535;
+   border-radius: 20px;
+   height: 2px;
+   width: 500px;
+   letter-spacing: 2px;
+   font-weight:200;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 0px 45px;
+   padding:0px 40px;
+   color: #CAD2C5;
+          }
+.four{
+   background-color: #353535;
+   border-radius: 20px;
+   height: 50px;
+  }
+.five{
+   background-color: #353535;
+   border-radius: 20px;
+   height: 50px;
+  }
+.six{
+   background-color: #353535;
+   border-radius: 20px;
+   height: 50px;
+  }
+
+.seven{
+   grid-column: span 3;
+   background-color: #353535;
+   border-radius: 20px;
+   height: 90px;
+}
+.fa fa-github{
+  left: 10px;
+}
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+    
+      <div class="item1 one">
+      <i class="fa fa-github" style="font-size:48px;color :beige;"></i>GITHUB</div>
+  <!-- <div class="color"> -->
+      <div class="item2 two"></div>
+      <div class="item3 three"><i class="fa fa-search" aria-hidden="true"></i> Search</div>  
+      <div class="item4 four"></div>
+      <div class="item5 five"></div>
+      <div class="item6 six"></div>
+      <div class="item7 seven"></div>
+  <!-- </div> -->
+</div>
+
+</body>
+</html>
